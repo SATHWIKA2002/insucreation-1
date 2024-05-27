@@ -1,0 +1,74 @@
+.app-screenshots {
+  background-color: #b2edd1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .app-screenshots {
+    padding: 36px;
+  }
+}
+
+.app-screenshots h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .app-screenshots h1 {
+    font-size: 30px;
+  }
+}
+
+.app-screenshots-decor {
+  width: 76px;
+  margin: 8px 0px;
+}
+
+.app-screenshots p {
+  color: #10511f;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 450px;
+}
+
+.mySwiper {
+  width: 100%;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .mySwiper {
+    margin-top: 24px;
+  }
+}
+
+.swiper-slide {
+  padding-bottom: 24px;
+}
+
+.screenshot-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  .screenshot-img {
+    border-radius: 12px;
+  }
+}
+
+.swiper-pagination-bullet {
+  background: #007aff;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0056b3;
+}

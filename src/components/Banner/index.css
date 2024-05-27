@@ -1,0 +1,41 @@
+.banner {
+  background-color: #c3eeca;
+  padding: 24px;
+  padding-top: 56px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: url("https://res.cloudinary.com/dtkwvlezz/image/upload/f_auto,q_auto/v1/InsuCreation/Decor/wave")
+    repeat-x;
+  background-size: contain;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    padding-left: 6%;
+    padding-right: calc(10% + 12px);
+  }
+}
+
+.banner-img {
+  width: 150px;
+}
+
+.banner-path-name {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+}
